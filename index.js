@@ -1,14 +1,22 @@
-function calcuateTotal (subtotal, shipping){
-  value shipping = 2.5;
-  value subtotal = 3.5
+const calcuateTotal = (subtotal, shipping = 2.50) => {
   return subtotal + shipping;
-}
+};
 
 
-function printTopThreeHeadlines (...headlines){
-  return headlines[0] headlines[1] headlines [2]
-}
+const printTopThreeHeadlines = (...headlines) => {
+  return headlines.slice(0, 3).join('\n');
+};
 
+
+
+
+const newsHeadlines = [
+  'a',
+  'b',
+  'c'
+  ];
+  
+  
 
 
 

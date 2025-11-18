@@ -10,13 +10,14 @@ function printTopThreeHeadlines = (...headlines) => {
 
 
 
-function newsHeadlines = [
+const newsHeadlines = [
   'a',
   'b',
   'c'
   ];
   
   
+
 
 
 
